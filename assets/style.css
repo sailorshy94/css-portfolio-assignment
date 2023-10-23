@@ -2,3 +2,12 @@
 * {
     box-sizing: border-box;
   }
+
+  /* Added bg color, padding, margin-right style rules to header section */
+  header {
+    background-color: lightblue;
+    padding: auto;
+    margin-right: 60%; 
+  }
+
+  
