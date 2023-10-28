@@ -12,7 +12,7 @@ body {
 
 header {
     color:black;
-    background-color: brown;
+    background-color: blanchedalmond;
     display: block;
     height: 95px;
 }
@@ -31,4 +31,28 @@ nav {
 
 #about img{
     float: left;
+}
+
+.portfolio-items {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    padding-left: 4%;
+}
+
+.portfolio-items article {
+    width: calc(50%-40px);
+    margin: 20px;
+}
+
+.portfolio-items article:first-child {
+    width: calc(100%-40px);
+}
+
+.portfolio-items article:first-child img {
+    width: 100%;
+}
+
+#lesser-works article {
+    
 }
