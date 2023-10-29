@@ -4,12 +4,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+ 
+ body {
     min-width: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* 
 header {
     color:black;
     background-color: blanchedalmond;
@@ -25,6 +25,10 @@ nav {
     text-align: end;
 }
 
+.work h2 {
+    
+}
+
 #about {
     
 }
@@ -33,26 +37,40 @@ nav {
     float: left;
 }
 
+h2 {
+    font-size: 1.9em;
+}
+
 .portfolio-items {
     display: flex;
-    flex: wrap;
-    flex-direction: column;
-    padding-left: 4%;
+    flex-wrap: wrap;
 }
 
 .portfolio-items article {
-    width: calc(50%-40px);
-    margin: 20px;
+    width: calc(50% - 40px);
 }
 
-.portfolio-items article:first-child {
-    width: calc(100%-40px);
+.portfolio-items article img {
+    width: 38%;
 }
 
-.portfolio-items article:first-child img {
-    width: 100%;
+.portfolio-items article h3 {
+    font-size: 1.75em;
+    position: absolute;
+    background-color: beige;
+    margin-top: 300px;
 }
 
-#lesser-works article {
-    
+#refactor {
+    width: calc(55% - 40px);
+    margin-left: 20%;
 }
+
+#refactor h3 {
+    margin-top: 560px;
+}
+
+#refactor img {
+    width: 80%;
+} */
+
