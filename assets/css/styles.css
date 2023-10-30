@@ -177,34 +177,24 @@ ul a:visited {
     color: darkcyan;
 }
 
-/* My webpage is not responding when I toggle the size to smaller window versus larger, everything is just staying put */
-/* @media screen and (max-width: 576px) {
-    .portfolio-items article img {
+@media screen and (max-width: 576px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav {
+        display: flex;
+    }
+
+    /* #about {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .portfolio-items {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-} */
-
-/* From Anthony in response to question on Slack */
-/* POSSIBLE OPTION */
-/* .portfolio-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px; /* we haven't  discussed this yet. I plan to go over it on Monday */
-/* } */
-
-/* OR ALTERNATIVE */
-/* article {
-    margin-bottom: 16px;
 }
-
-article:nth-child(2n) {
-    margin-right: 8px;
-    width: calc(50% - 8px);
-}
-  
-article:nth-child(2n+3) {
-    margin-left: 8px;
-    width: calc(50% - 8px);
-} */
