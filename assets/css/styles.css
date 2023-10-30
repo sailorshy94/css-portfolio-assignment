@@ -27,6 +27,7 @@ h1 {
     padding-right: 3%;
     text-align: left;
     background-color: bisque;
+    color: darkcyan
 }
 
 nav {
@@ -51,8 +52,13 @@ nav a:visited {
     color: blue;
 }
 
+h2 {
+    font-size: 1.75em;
+}
+
 #about {
     padding-top: 5%;
+    padding-left: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,6 +80,7 @@ nav a:visited {
     padding-top: 10%;
 }
 
+/* how can I make this less squishy? Esp when screen is minimized? */
 #about p {
     position: relative;
     top: -130px;
@@ -86,6 +93,19 @@ nav a:visited {
     padding-top: 5%;
 }
 
+.portfolio-items {
+    display: flex;
+    flex: wrap;
+}
+
+.portfolio-items article {
+    width: calc(50% - 40px);
+    margin: 20px;
+}
+
+
+
+
 #contact {
     padding-top: 5%;
     padding-bottom: 3%;
@@ -97,11 +117,23 @@ nav a:visited {
     padding-left: 40%;
     word-spacing: 40px;
     font-size: 20px;
+    border-left: 5px solid blue;
 }
 
-h2 {
-    font-size: 1.75em;
+ul a:hover {
+    text-decoration: solid;
+    opacity: 0.8;
+    background-color: blue;
 }
+
+ul a:link {
+    color: bisque;
+}
+
+ul a:visited {
+    color: darkcyan;
+}
+
 
 
 
