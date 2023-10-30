@@ -3,74 +3,128 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
- 
- body {
+
+body {
     min-width: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* 
+
 header {
-    color:black;
-    background-color: blanchedalmond;
-    display: block;
-    height: 95px;
+    color: black;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
-h1{
-    text-align: start;
+h1 {
+    padding-left: 12%;
+    padding-right: 3%;
+    text-align: left;
+    background-color: bisque;
 }
 
 nav {
     text-align: end;
+    padding-right: 4%;
+    word-spacing: 10px;
+    font-size: medium;
+    color: black;
 }
 
-.work h2 {
-    
+nav a:hover {
+    text-decoration: solid;
+    opacity: 0.75;
+    background-color: bisque;
+}
+
+nav a:link {
+    color: black
+}
+
+nav a:visited {
+    color: blue;
 }
 
 #about {
-    
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-right: 30%;
 }
 
-#about img{
-    float: left;
+#about div {
+    border-left: 5px solid blue;
+}
+
+#about h2 {
+    padding-right: 3%;
+    text-wrap: nowrap;
+}
+
+#about img {
+    padding-left: 2%;
+    padding-top: 10%;
+}
+
+#about p {
+    position: relative;
+    top: -130px;
+    flex-direction: column;
+    left: 26%;
+    text-wrap: wrap;
+}
+
+#work {
+    padding-top: 5%;
+}
+
+#contact {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact ul {
+    padding-left: 40%;
+    word-spacing: 40px;
+    font-size: 20px;
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 1.75em;
 }
 
-.portfolio-items {
+
+
+
+
+/* POSSIBLE OPTION */
+/* .portfolio-items {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px; /* we haven't  discussed this yet. I plan to go over it on Monday */
+/* } */
+
+/* OR ALTERNATIVE */
+/* article {
+    margin-bottom: 16px;
 }
 
-.portfolio-items article {
-    width: calc(50% - 40px);
+article:nth-child(2n) {
+    margin-right: 8px;
+    width: calc(50% - 8px);
 }
-
-.portfolio-items article img {
-    width: 38%;
-}
-
-.portfolio-items article h3 {
-    font-size: 1.75em;
-    position: absolute;
-    background-color: beige;
-    margin-top: 300px;
-}
-
-#refactor {
-    width: calc(55% - 40px);
-    margin-left: 20%;
-}
-
-#refactor h3 {
-    margin-top: 560px;
-}
-
-#refactor img {
-    width: 80%;
+  
+article:nth-child(2n+3) {
+    margin-left: 8px;
+    width: calc(50% - 8px);
 } */
-
