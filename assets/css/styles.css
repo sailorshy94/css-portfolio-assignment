@@ -56,6 +56,13 @@ h2 {
     font-size: 1.75em;
 }
 
+h3 {
+    padding-top: 1%;
+    text-align: center;
+    background-color: darkcyan;
+    color: cornsilk;
+}
+
 #about {
     padding-top: 5%;
     padding-left: 2%;
@@ -83,9 +90,9 @@ h2 {
 /* how can I make this less squishy? Esp when screen is minimized? */
 #about p {
     position: relative;
-    top: -130px;
+    top: -140px;
     flex-direction: column;
-    left: 26%;
+    left: 30%;
     text-wrap: wrap;
 }
 
@@ -96,12 +103,14 @@ h2 {
 #work h2 {
     padding-top: 5%;
     padding-left: 2%;
+    text-decoration: underline 4px blue;
 }
 
 .portfolio-items {
     display: flex;
     flex: wrap;
     flex-direction: row;
+    align-items: center;
 }
 
 .portfolio-items article {
@@ -131,21 +140,24 @@ h2 {
     filter: saturate(3);
 }
 
-
 #contact {
     padding-top: 5%;
     padding-bottom: 3%;
     padding-left: 2%;
+    margin-right: 30%;
     display: flex;
     flex-direction: row;
 }
 
 #contact h2 {
     padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 3%;
     border-right: 5px solid blue;
 }
 
 #contact ul {
+    padding-top: 5%;
     padding-left: 2%;
     word-spacing: 40px;
     font-size: 20px;
@@ -165,11 +177,16 @@ ul a:visited {
     color: darkcyan;
 }
 
+/* My webpage is not responding when I toggle the size to smaller window versus larger, everything is just staying put */
+/* @media screen and (max-width: 576px) {
+    .portfolio-items article img {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+} */
 
-
-
-
-
+/* From Anthony in response to question on Slack */
 /* POSSIBLE OPTION */
 /* .portfolio-items {
     display: flex;
