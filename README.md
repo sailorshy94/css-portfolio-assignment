@@ -7,4 +7,4 @@ The purpose of this assignment is to apply our understanding of basic HTML, CSS 
 ![Screenshot of CSS Portfolio](./Shyla-CSS-Portfolio.png)
 
 ## Link
-[CSS Portfolio URL](https://sailorshy94.github.io/)
+[CSS Portfolio URL](https://sailorshy94.github.io/css-portfolio-assignment/)
