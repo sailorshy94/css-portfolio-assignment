@@ -43,7 +43,6 @@ nav {
     font-size: medium;
     color: black;
     gap: 8px;
-
 }
 
 nav a:hover {
@@ -186,4 +185,4 @@ ul a:visited {
         flex-direction: column;
         flex-wrap: nowrap;
     }
-
+}
